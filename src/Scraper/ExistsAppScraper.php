@@ -3,15 +3,15 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   gr8ref
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-info
+ * @see      https://github.com/gr8ref/google-play-info
  */
 
-namespace rumi55\GPlay\Scraper;
+namespace gr8ref\GPlay\Scraper;
 
-use rumi55\HttpClient\ResponseHandlerInterface;
+use gr8ref\HttpClient\ResponseHandlerInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

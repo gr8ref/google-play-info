@@ -3,20 +3,20 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   gr8ref
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-info
+ * @see      https://github.com/gr8ref/google-play-info
  */
 
-namespace rumi55\GPlay\Util;
+namespace gr8ref\GPlay\Util;
 
-use rumi55\GPlay\Enum\CategoryEnum;
-use rumi55\GPlay\Model\App;
-use rumi55\GPlay\Model\AppId;
-use rumi55\GPlay\Model\AppInfo;
-use rumi55\GPlay\Model\Category;
-use rumi55\GPlay\Model\Developer;
+use gr8ref\GPlay\Enum\CategoryEnum;
+use gr8ref\GPlay\Model\App;
+use gr8ref\GPlay\Model\AppId;
+use gr8ref\GPlay\Model\AppInfo;
+use gr8ref\GPlay\Model\Category;
+use gr8ref\GPlay\Model\Developer;
 
 /**
  * @internal

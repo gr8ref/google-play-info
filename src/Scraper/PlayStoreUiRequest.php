@@ -3,18 +3,18 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   gr8ref
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-info
+ * @see      https://github.com/gr8ref/google-play-info
  */
 
-namespace rumi55\GPlay\Scraper;
+namespace gr8ref\GPlay\Scraper;
 
 use GuzzleHttp\Psr7\Request;
-use rumi55\GPlay\Enum\SortEnum;
-use rumi55\GPlay\GPlayApps;
-use rumi55\GPlay\Model\AppId;
+use gr8ref\GPlay\Enum\SortEnum;
+use gr8ref\GPlay\GPlayApps;
+use gr8ref\GPlay\Model\AppId;
 use Psr\Http\Message\RequestInterface;
 use function GuzzleHttp\Psr7\stream_for;
 

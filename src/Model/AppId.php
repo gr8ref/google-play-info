@@ -3,16 +3,16 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   gr8ref
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-info
+ * @see      https://github.com/gr8ref/google-play-info
  */
 
-namespace rumi55\GPlay\Model;
+namespace gr8ref\GPlay\Model;
 
-use rumi55\GPlay\GPlayApps;
-use rumi55\GPlay\Util\LocaleHelper;
+use gr8ref\GPlay\GPlayApps;
+use gr8ref\GPlay\Util\LocaleHelper;
 
 /**
  * Contains the application ID, as well as the locale and country for which the information was or will be obtained.
@@ -40,7 +40,7 @@ class AppId
     private $country;
 
     /**
-     * Creates an \rumi55\GPlay\Model\AppId object.
+     * Creates an \gr8ref\GPlay\Model\AppId object.
      *
      * @param string $id      application ID (Android package name)
      * @param string $locale  Locale (ex. en_US, en-CA or en). Default is 'en_US'.

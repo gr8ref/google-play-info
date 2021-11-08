@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace rumi55\GPlay\Model;
+namespace gr8ref\GPlay\Model;
 
 /**
  * Trait JsonSerializableTrait.

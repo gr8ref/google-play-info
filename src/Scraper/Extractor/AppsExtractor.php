@@ -3,19 +3,19 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   gr8ref
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-info
+ * @see      https://github.com/gr8ref/google-play-info
  */
 
-namespace rumi55\GPlay\Scraper\Extractor;
+namespace gr8ref\GPlay\Scraper\Extractor;
 
-use rumi55\GPlay\GPlayApps;
-use rumi55\GPlay\Model\App;
-use rumi55\GPlay\Model\Developer;
-use rumi55\GPlay\Model\GoogleImage;
-use rumi55\GPlay\Util\ScraperUtil;
+use gr8ref\GPlay\GPlayApps;
+use gr8ref\GPlay\Model\App;
+use gr8ref\GPlay\Model\Developer;
+use gr8ref\GPlay\Model\GoogleImage;
+use gr8ref\GPlay\Util\ScraperUtil;
 use function GuzzleHttp\Psr7\parse_query;
 
 /**

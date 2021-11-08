@@ -4,15 +4,15 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   gr8ref
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-info
+ * @see      https://github.com/gr8ref/google-play-info
  */
 
-namespace rumi55\GPlay\Enum;
+namespace gr8ref\GPlay\Enum;
 
-use rumi55\Enum;
+use gr8ref\Enum;
 
 /**
  * Contains all valid values for the "price" parameter.

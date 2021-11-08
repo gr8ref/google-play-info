@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace rumi55\GPlay\Util;
+namespace gr8ref\GPlay\Util;
 
 use GuzzleHttp\Psr7\StreamDecoratorTrait;
 use Psr\Http\Message\StreamInterface;

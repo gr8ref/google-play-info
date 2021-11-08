@@ -3,15 +3,15 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   gr8ref
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-info
+ * @see      https://github.com/gr8ref/google-play-info
  */
 
-namespace rumi55\GPlay\Model\Builder;
+namespace gr8ref\GPlay\Model\Builder;
 
-use rumi55\GPlay\Model\GoogleImage;
+use gr8ref\GPlay\Model\GoogleImage;
 
 /**
  * Developer Builder.
@@ -35,10 +35,10 @@ class DeveloperBuilder
     /** @var string|null */
     private $website;
 
-    /** @var \rumi55\GPlay\Model\GoogleImage|null */
+    /** @var \gr8ref\GPlay\Model\GoogleImage|null */
     private $icon;
 
-    /** @var \rumi55\GPlay\Model\GoogleImage|null */
+    /** @var \gr8ref\GPlay\Model\GoogleImage|null */
     private $cover;
 
     /** @var string|null */

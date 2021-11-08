@@ -3,18 +3,18 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   gr8ref
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-info
+ * @see      https://github.com/gr8ref/google-play-info
  */
 
-namespace rumi55\GPlay\Model;
+namespace gr8ref\GPlay\Model;
 
 use GuzzleHttp\RequestOptions;
-use rumi55\GPlay\Exception\GooglePlayException;
-use rumi55\GPlay\Util\LazyStream;
-use rumi55\HttpClient\HttpClient;
+use gr8ref\GPlay\Exception\GooglePlayException;
+use gr8ref\GPlay\Util\LazyStream;
+use gr8ref\HttpClient\HttpClient;
 use Psr\Http\Message\ResponseInterface;
 
 /**
@@ -367,7 +367,7 @@ class GoogleImage
     /**
      * Sets the original image size.
      *
-     * @return GoogleImage returns the same object \rumi55\GPlay\Model\GoogleImage to support the call chain
+     * @return GoogleImage returns the same object \gr8ref\GPlay\Model\GoogleImage to support the call chain
      */
     public function useOriginalSize(): self
     {
@@ -381,7 +381,7 @@ class GoogleImage
      *
      * @param int|null $size width or height of the image in pixels
      *
-     * @return GoogleImage returns the same object \rumi55\GPlay\Model\GoogleImage to support the call chain
+     * @return GoogleImage returns the same object \gr8ref\GPlay\Model\GoogleImage to support the call chain
      */
     public function setSize(?int $size): self
     {
@@ -397,7 +397,7 @@ class GoogleImage
      *
      * @param int|null $width image width
      *
-     * @return GoogleImage returns the same object \rumi55\GPlay\Model\GoogleImage to support the call chain
+     * @return GoogleImage returns the same object \gr8ref\GPlay\Model\GoogleImage to support the call chain
      */
     public function setWidth(?int $width): self
     {
@@ -412,7 +412,7 @@ class GoogleImage
      *
      * @param int|null $height image height
      *
-     * @return GoogleImage returns the same object \rumi55\GPlay\Model\GoogleImage to support the call chain
+     * @return GoogleImage returns the same object \gr8ref\GPlay\Model\GoogleImage to support the call chain
      */
     public function setHeight(?int $height): self
     {
@@ -428,7 +428,7 @@ class GoogleImage
      * @param int $width  image width
      * @param int $height image height
      *
-     * @return GoogleImage returns the same object \rumi55\GPlay\Model\GoogleImage to support the call chain
+     * @return GoogleImage returns the same object \gr8ref\GPlay\Model\GoogleImage to support the call chain
      */
     public function setWidthAndHeight(int $width, int $height): self
     {
@@ -444,7 +444,7 @@ class GoogleImage
      *
      * @param int|null $border the number of pixels of the border
      *
-     * @return GoogleImage returns the same object \rumi55\GPlay\Model\GoogleImage to support the call chain
+     * @return GoogleImage returns the same object \gr8ref\GPlay\Model\GoogleImage to support the call chain
      */
     public function setBorder(?int $border): self
     {
@@ -458,7 +458,7 @@ class GoogleImage
      *
      * @param bool $squareCrop square crop
      *
-     * @return GoogleImage returns the same object \rumi55\GPlay\Model\GoogleImage to support the call chain
+     * @return GoogleImage returns the same object \gr8ref\GPlay\Model\GoogleImage to support the call chain
      */
     public function setSquareCrop(bool $squareCrop): self
     {
@@ -473,7 +473,7 @@ class GoogleImage
      *
      * @param bool $smartCrop smart crop
      *
-     * @return GoogleImage returns the same object \rumi55\GPlay\Model\GoogleImage to support the call chain
+     * @return GoogleImage returns the same object \gr8ref\GPlay\Model\GoogleImage to support the call chain
      */
     public function setSmartCrop(bool $smartCrop): self
     {
@@ -488,7 +488,7 @@ class GoogleImage
      *
      * @param bool $verticalFlip vertical flip
      *
-     * @return GoogleImage returns the same object \rumi55\GPlay\Model\GoogleImage to support the call chain
+     * @return GoogleImage returns the same object \gr8ref\GPlay\Model\GoogleImage to support the call chain
      */
     public function setVerticalFlip(bool $verticalFlip): self
     {
@@ -502,7 +502,7 @@ class GoogleImage
      *
      * @param bool $horizontalFlip horizontal flip
      *
-     * @return GoogleImage returns the same object \rumi55\GPlay\Model\GoogleImage to support the call chain
+     * @return GoogleImage returns the same object \gr8ref\GPlay\Model\GoogleImage to support the call chain
      */
     public function setHorizontalFlip(bool $horizontalFlip): self
     {

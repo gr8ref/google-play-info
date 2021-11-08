@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace rumi55\GPlay\Scraper;
+namespace gr8ref\GPlay\Scraper;
 
-use rumi55\HttpClient\ResponseHandlerInterface;
+use gr8ref\HttpClient\ResponseHandlerInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

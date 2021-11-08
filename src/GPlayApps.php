@@ -3,19 +3,19 @@
 declare(strict_types=1);
 
 /**
- * @author   rumi55
+ * @author   gr8ref
  * @license  MIT
  *
- * @see      https://github.com/rumi55/google-play-info
+ * @see      https://github.com/gr8ref/google-play-info
  */
 
-namespace rumi55\GPlay;
+namespace gr8ref\GPlay;
 
 use GuzzleHttp\Promise\EachPromise;
 use GuzzleHttp\Promise\FulfilledPromise;
 use GuzzleHttp\RequestOptions;
-use rumi55\HttpClient\HttpClient;
-use rumi55\HttpClient\Options;
+use gr8ref\HttpClient\HttpClient;
+use gr8ref\HttpClient\Options;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
 use Psr\SimpleCache\CacheInterface;
@@ -1201,7 +1201,7 @@ class GPlayApps
      * ```php
      * $gplay->saveGoogleImages(
      *     $images,
-     *     static function (\rumi55\GPlay\Model\GoogleImage $image): string {
+     *     static function (\gr8ref\GPlay\Model\GoogleImage $image): string {
      *         $hash = $image->getHashUrl($hashAlgo = 'md5', $parts = 2, $partLength = 2);
      *         return 'path/to/screenshots/' . $hash . '.{ext}';
      *     },

@@ -3,18 +3,18 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   gr8ref
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-info
+ * @see      https://github.com/gr8ref/google-play-info
  */
 
-namespace rumi55\GPlay\Scraper;
+namespace gr8ref\GPlay\Scraper;
 
-use rumi55\GPlay\Exception\GooglePlayException;
-use rumi55\GPlay\Model\Category;
-use rumi55\GPlay\Util\ScraperUtil;
-use rumi55\HttpClient\ResponseHandlerInterface;
+use gr8ref\GPlay\Exception\GooglePlayException;
+use gr8ref\GPlay\Model\Category;
+use gr8ref\GPlay\Util\ScraperUtil;
+use gr8ref\HttpClient\ResponseHandlerInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

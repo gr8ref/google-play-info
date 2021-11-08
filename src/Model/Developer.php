@@ -3,16 +3,16 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   gr8ref
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-info
+ * @see      https://github.com/gr8ref/google-play-info
  */
 
-namespace rumi55\GPlay\Model;
+namespace gr8ref\GPlay\Model;
 
-use rumi55\GPlay\GPlayApps;
-use rumi55\GPlay\Model\Builder\DeveloperBuilder;
+use gr8ref\GPlay\GPlayApps;
+use gr8ref\GPlay\Model\Builder\DeveloperBuilder;
 
 /**
  * Contains data on the application developer in the Google Play store.

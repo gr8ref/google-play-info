@@ -3,19 +3,19 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   gr8ref
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-info
+ * @see      https://github.com/gr8ref/google-play-info
  */
 
-namespace rumi55\GPlay\Scraper\Extractor;
+namespace gr8ref\GPlay\Scraper\Extractor;
 
-use rumi55\GPlay\Model\AppId;
-use rumi55\GPlay\Model\GoogleImage;
-use rumi55\GPlay\Model\ReplyReview;
-use rumi55\GPlay\Model\Review;
-use rumi55\GPlay\Util\DateStringFormatter;
+use gr8ref\GPlay\Model\AppId;
+use gr8ref\GPlay\Model\GoogleImage;
+use gr8ref\GPlay\Model\ReplyReview;
+use gr8ref\GPlay\Model\Review;
+use gr8ref\GPlay\Util\DateStringFormatter;
 
 /**
  * @internal
