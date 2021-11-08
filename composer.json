@@ -1,0 +1,51 @@
+{
+    "name": "rumi55/google-play-info",
+    "type": "library",
+    "description": "get app data from Google Play store.",
+    "keywords": [
+        "google play",
+        "google",
+        "scraper",
+        "android",
+        "gplay"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rumi",
+            "email": "refik@umisoft.ba"
+        }
+    ],
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    },
+    "require": {
+        "php": ">=7.1",
+        "ext-dom": "*",
+        "ext-hash": "*",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "rumi55/http-client-simple-cache": "^1.0.1",
+        "rumi55/enum": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "rumi55\\GPlay\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0 | ^8.0 | ^9.0",
+        "symfony/cache": "^4.0 | ^5.0",
+        "symfony/var-dumper": "^4.0 | ^5.0",
+        "symfony/var-exporter": "^4.0 | ^5.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "rumi55\\GPlay\\Tests\\": "tests/"
+        }
+    },
+    "suggest": {
+        "symfony/cache": "Install the implementation of the simple cache PSR-18. Full list of packages https://packagist.org/providers/psr/simple-cache-implementation"
+    }
+}
